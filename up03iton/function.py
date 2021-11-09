@@ -9,12 +9,12 @@ def imshow(X, resize=None):
     We should be able to install this package in Google Colab from your Git repo.
     """
     print("entered funtion")
-    im = Image.fromarray(X)
-    print("converted image")
-    if resize:
+    #im = Image.fromarray(X)
+    #print("converted image")
+    #if resize:
         # assuming resize is a tuple spedifing the new size
-        im.resize(resize)
-    print("resized image")
+     #   im.resize(resize)
+    #print("resized image")
     # assuming the function is supposed to also show the image since its name is imshow.
     im.show()
     return 42
