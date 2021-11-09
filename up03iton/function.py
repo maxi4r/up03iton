@@ -8,6 +8,7 @@ def imshow(X, resize=None):
     The use of widgets is optional but you can take a look to interact.
     We should be able to install this package in Google Colab from your Git repo.
     """
+    print("entered funtion")
     im = Image.fromarray(X)
     print("converted image")
     if resize:
