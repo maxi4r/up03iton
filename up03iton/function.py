@@ -16,4 +16,5 @@ def imshow(X, resize=None):
     print("resized image")
     # assuming the function is supposed to also show the image since its name is imshow.
     im.show()
+    return 42
 
