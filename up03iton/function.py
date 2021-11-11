@@ -16,6 +16,4 @@ def imshow(X, resize=None):
         im = im.resize(resize)
     # assuming the function is supposed to also show the image since its name is imshow.
     im.show()
-    #plt.imshow(im)
-    #plt.show()
 
