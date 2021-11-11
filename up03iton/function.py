@@ -2,6 +2,8 @@ import numpy as np
 from ipywidgets import interact, fixed
 from PIL import Image
 
+import matplotlib.pyplot as plt
+
 def imshow(X, resize=None):
     """
     You should create a way to resize an image from an array X.
@@ -13,5 +15,7 @@ def imshow(X, resize=None):
         # assuming resize is a tuple spedifing the new size
         im = im.resize(resize)
     # assuming the function is supposed to also show the image since its name is imshow.
-    im.show()
+    #im.show()
+    plt.imshow(im)
+    plt.show()
 

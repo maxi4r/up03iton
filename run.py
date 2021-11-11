@@ -6,4 +6,4 @@ url = 'https://www.fau.de/files/2019/07/Kollegienhaus_Malter_3-480x284.jpg'
 img = io.imread(url)
 plt.imshow(img)
 plt.show()
-function.imshow(img)
+function.imshow(img, resize=(100,100))
