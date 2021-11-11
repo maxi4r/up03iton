@@ -12,10 +12,10 @@ def imshow(X, resize=None):
     """
     im = Image.fromarray(X)
     if resize:
-        # assuming resize is a tuple spedifing the new size
+        # assuming resize is a tuple specifing the new size
         im = im.resize(resize)
     # assuming the function is supposed to also show the image since its name is imshow.
-    #im.show()
-    plt.imshow(im)
-    plt.show()
+    im.show()
+    #plt.imshow(im)
+    #plt.show()
 
