@@ -13,5 +13,6 @@ def imshow(X, resize=None):
         # assuming resize is a tuple specifing the new size
         im = im.resize(resize)
     # assuming the function is supposed to also show the image since its name is imshow.
-    im.show()
+    #im.show()
+    display(im)
 
