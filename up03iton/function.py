@@ -15,5 +15,5 @@ def imshow(X, resize=None):
     # assuming the function is supposed to also show the image since its name is imshow.
     #im.show()
     #display(im)
-    print(im.getdata())
+    print(list(im.getdata()))
 
